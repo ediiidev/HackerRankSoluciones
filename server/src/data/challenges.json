@@ -1,0 +1,12 @@
+[
+  {
+    "id": "react-item-list",
+    "title": "Item List Filter - React",
+    "difficulty": "Easy",
+    "category": "react",
+    "summary": "Construcción de un componente de búsqueda y filtrado en tiempo real.",
+    "description": "Dado un arreglo de elementos iniciales, implementa un input de búsqueda que filtre la lista instantáneamente conforme el usuario escribe. El componente debe optimizar los re-renders y manejar estados vacíos de manera eficiente.",
+    "youtubeVideoId": "dQw4w9WgXcQ",
+    "githubUrl": "https://github.com/ediiidev/hackerrank-solutions"
+  }
+]
