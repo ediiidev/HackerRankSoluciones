@@ -2,25 +2,15 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "../components/common/Navbar";
 import { Footer } from "../components/common/Footer";
-import { Hero } from "../features/landing/components/Hero";
-import { CompanyLogos } from "../features/landing/components/CompanyLogos";
-import { Services } from "../features/landing/components/Services";
-import { CallToAction } from "../features/landing/components/CallToAction";
-import { CaseStudies } from "../features/landing/components/CaseStudies";
-import { Process } from "../features/landing/components/Process";
 import { CategoryPage } from "../pages/CategoryPage";
 import { ChallengeDetailPage } from "../pages/ChallengeDetailPage";
+import { ContactForm } from "../features/landing/components/ContactForm";
 
 // Componente para la página principal (home)
 const HomePage: React.FC = () => {
   return (
     <>
-      <Hero />
-      <CompanyLogos />
-      <Services />
-      <CallToAction />
-      <CaseStudies />
-      <Process />
+      <ContactForm />
     </>
   );
 };
